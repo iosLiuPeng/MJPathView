@@ -12,7 +12,6 @@ IB_DESIGNABLE
 @interface MJPathView : UIView
 @property (nonatomic, assign) IBInspectable CGFloat angle;//角度
 @property (nonatomic, strong) IBInspectable UIColor *lineColor;//线颜色
-@property (nonatomic, weak) id<PathViewDelegate> delegate;
 
 /// 返回路径xs
 - (CGPathRef)pathWithRect:(CGRect)rect;
