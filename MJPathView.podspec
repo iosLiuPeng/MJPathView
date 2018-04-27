@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MJPathView'
   s.version          = '1.0.0'
-  s.summary          = 'By showing the trace on xib or sb, you can preview the animation track easily and support the screen adaptation.'
+  s.summary          = 'A elliptical path that can be previewed on the xib and supports screen adaptation.'
   s.homepage         = 'https://github.com/iosLiuPeng/MJPathView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'iosLiuPeng' => '392009255@qq.com' }
